@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>QQ邮箱</title>
+		<link rel="stylesheet" type="text/css" href="CSS/index.css"/>
+	</head>
+	<body>
+		<div class="container">
+			<div class="header">
+				<a href="https://mail.qq.com/"></a>
+				<ul class="right">
+					<li>基本版 |</li>
+					<li>English | </li>
+					<li>手机版 | </li>
+					<li>企业邮箱</li>
+				</ul>
+			</div>
+			<div class="concent">
+				<div class="concent-cont">
+					<div class="concent-bg">
+						<p>QQ邮箱，常联系！</p>
+						<p>到头来,</p>
+						<p>我们记住的,</p>
+						<p>不是敌人的攻击,</p>
+						<p>而是朋友的沉默。</p>
+						<p>——马丁·路德·金</p>
+						<p>插画来自丑丑(两岁)</p>
+					</div>
+					<div class="concent-begin">
+						<div class="tab">
+							<div class="WX">微信登陆
+								<div class="wxewm">
+									<img src="IMG/erweima.png" width="170px">
+									<p>请使用微信扫描二维码登录</p>
+									<p>微信与QQ账号的邮箱数据不互通</p>
+								</div>
+								
+							
+							</div>
+							<div class="QQ">QQ登陆
+								<div class="cnt" style="display: none;">
+									<p>请用<span class="QQ-TXT">QQ手机版</span>扫描二维码，或点击头像登陆</p>
+									<div class="tu">
+										<div class="ewm"></div>
+										<span class="txt1">安全登陆</span>
+										<div class="qqbg"></div>
+										<span class="txt2">心   安 💋</span>
+									</div>		
+									<div class="checkbox">
+										<input type="checkbox"/>下次自动登录
+										<span>账号密码登陆</span>
+									</div>
+									
+							</div>
+						</div>
+						
+							
+							
+						</div>
+					</div>
+				</div>				
+			</div>
+			<div class="footer">
+				<div class="footer-ff">
+					<ul class="botton">
+						<li>关于腾讯 | </li>
+						<li>服务条款 | </li>
+						<li>隐私政策 | </li>
+						<li>客服中心 | </li>
+						<li>联系我们 | </li>
+						<li>帮助中心 | </li>
+					</ul>
+					<span>©1998 - 2019 Tencent Inc. All Rights Reserved.</span>
+				</div>		
+			</div>
+		</div>	
+		
+		
+		
+		<script type="text/javascript">
+			var QQ = document.getElementsByClassName('QQ')[0];
+			var WX = document.getElementsByClassName('WX')[0];
+			var cnt = document.getElementsByClassName('cnt')[0];
+			var wxewm = document.getElementsByClassName('wxewm')[0];
+			WX.onclick = function(){
+				cnt.style.display = 'none';
+				wxewm.style.display = 'block';
+			}
+			QQ.onclick = function(){
+				cnt.style.display = 'block'
+				wxewm.style.display = 'none';
+			}
+		</script>
+	</body>
+</html>
